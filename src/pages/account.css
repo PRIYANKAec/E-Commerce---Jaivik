@@ -1,0 +1,220 @@
+body {
+  background-color: #FFF1B7;
+  margin: 0;
+}
+
+.header {
+  height: 10px;
+  width: 100%;
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+  
+  .product-name,
+  nav {
+    display: flex;
+    align-items: center;
+    flex: auto;
+    margin-bottom: 0;
+  }
+  
+  .signin {
+    margin-left: -300px;
+    margin-right: 50px;
+  }
+  
+  .logo {
+    height: 120px;
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+    padding: 3px;
+  }
+  h1 {
+  margin: 0;
+}
+.title{
+  margin-top: 200px;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list a:hover {
+  color: #61dafb; /* Change to your desired hover color */
+}
+.user-details {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.usericon {
+  width: 60px; /* Adjust the width based on your design */
+  height: 60px; /* Adjust the height based on your design */
+  margin-left:50px; /* Add margin to the right for spacing */
+  
+}
+.uploaded-image {
+  width: 60px; /* Adjust the width based on your design */
+  height: 60px; /* Adjust the height based on your design */
+  border-radius: 50%; /* Make it circular */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  margin-left: 50px; /* Adjust margin based on your design */
+  border: 2px solid #fff; /* Add a border for a clean look */
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.h2{
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  font-size: 30px;
+
+}
+.h3 {
+  margin-top: 0px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.account-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.account-button1 {
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 10px;
+  position: center;
+  font-size: 30px;
+  margin-left: 150px;
+}
+.account-button2 {
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 10px;
+  position: center;
+  font-size: 30px;
+  margin-left: 150px;
+}
+.account-button3 {
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 10px;
+  position: center;
+  font-size: 30px;
+  margin-left: 150px;
+}
+.account-button4 {
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 10px;
+  position: center;
+  font-size: 30px;
+  margin-left: 150px;
+}
+
+.account-button1:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #333;
+  transition: width 0.3s;
+}
+
+.account-button1:hover:after {
+  width: 100%;
+}
+.account-button2:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #333;
+  transition: width 0.3s;
+}
+
+.account-button2:hover:after {
+  width: 100%;
+}
+.account-button3:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #333;
+  transition: width 0.3s;
+}
+
+.account-button3:hover:after {
+  width: 100%;
+}
+.account-button4:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #333;
+  transition: width 0.3s;
+}
+
+.account-button4:hover:after {
+  width: 100%;
+}
+
+/* Style for the arrow image */
+.arrow-image1,.arrow-image2,.arrow-image3,.arrow-image4{
+  width: 30px; /* Adjust the width based on your design */
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 465px;
+}
+.arrow-image2{
+  width: 30px; /* Adjust the width based on your design */
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 450px;
+}
+.arrow-image3{
+  width: 30px; /* Adjust the width based on your design */
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 550px;
+}
+.arrow-image4{
+  width: 30px; /* Adjust the width based on your design */
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 500px;
+}

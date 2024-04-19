@@ -1,0 +1,98 @@
+body {
+  background-color: #FFF1B7;
+  margin: 0;
+}
+
+.header {
+  height: 10px;
+  width: 100%;
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.product-name,
+nav {
+  display: flex;
+  align-items: center;
+  flex: auto;
+  margin-bottom: 0;
+}
+
+.signin {
+  margin-left: -300px;
+  margin-right: 50px;
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-list li {
+  margin-right: 20px;
+  padding: 3px;
+}
+  .contact-details {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact-details p {
+    margin: 10px 0;
+  }
+  .contact-box {
+    flex: 1; /* Distribute available space equally among child elements */
+    padding: 5px; /* Add padding for better spacing */
+    border: 1px solid #ddd; /* Add border for a box-like appearance */
+    border-radius: 8px; /* Add border-radius for a rounded look */
+    background-color: white; /* Set the background color */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    text-align: center; /* Center text within the box */
+  }
+  
+  /* Style for the header */
+  .header {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between logo and text */
+    padding: 30px; /* Add padding for better spacing */
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .nav-list a {
+    color: white; /* Set the default color */
+    text-decoration: none; /* Remove underlines */
+    transition: color red; /* Add a smooth transition effect */
+  }
+
+  .nav-list a:hover {
+    color: #61dafb; /* Change to your desired hover color */
+  }
+  .hello{
+    margin-top: 200px;
+  }

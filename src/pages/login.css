@@ -1,0 +1,78 @@
+
+.login-container {
+  max-width: 400px;
+  margin:0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-top: 40px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 97%;
+  padding:8px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 15px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+   background-color: rgb(75, 151, 227);
+}
+
+.google-login-link {
+height: 20px;
+width: 400px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+background-color: #fff;
+text-decoration: none;
+color: inherit;
+cursor: pointer;
+}
+.google{
+  text-align: center;
+}
+.google-logo {
+width: 20px;
+height: 20px;
+margin-right: 10px;
+margin-top: 10px;
+}
+.create-new{
+  margin-top: 25px;
+  margin-bottom: 5px;
+  text-align: center;
+}

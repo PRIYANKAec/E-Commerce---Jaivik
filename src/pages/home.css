@@ -1,0 +1,357 @@
+body {
+  background-color: #FFF1B7;
+  margin: 0;
+}
+
+.header {
+  height: 10px;
+  width: 100%;
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.product-name,
+nav {
+  display: flex;
+  align-items: center;
+  flex: auto;
+  margin-bottom: 0;
+}
+
+.signin {
+  margin-left: -300px;
+  margin-right: 50px;
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-right: 20px;
+  padding: 3px;
+}
+
+.search-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 170px;
+}
+
+.search-box input {
+  width: 500px;
+  height: 40px;
+  border: 2px solid #131313;
+  border-radius: 25px;
+  padding: 0 20px;
+  font-size: 16px;
+  margin-right: -60px;
+  margin-top: -2px;
+}
+
+.search-box button {
+  width: 40px;
+  height: 35px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box button img {
+  width: 20px;
+  height: 20px;
+}
+
+.carousel {
+  width: 70%;
+  margin: auto;
+  margin-top: 0px;
+  background-color: #FFF1B7;
+}
+
+.carousel img {
+  width: 100%;
+  height: 700px;
+}
+
+.products {
+  text-align: center;
+  margin: 20px;
+}
+
+.product-title {
+  font-size: 50px;
+  font-family: 'Catamaran', 'Heebo', 'Playfair Display', 'Roboto Mono', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  border-radius: 30px;
+  padding: 65px;
+  margin-bottom: 60px;
+  height: 380px;
+  width: 250px;
+  text-align: center;
+  background-color: #fffafa;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+}
+
+.product-item h3 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.product-item p {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.product-item {
+  text-align: center;
+}
+
+.product-image {
+  width: 120%;
+  height: auto;
+  margin-left: -25px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+
+.button-36 {
+  background-image: linear-gradient(92.88deg, #9f7434 9.16%, #8c6835 43.89%, rgb(137, 113, 47) 64.72%);
+  border-radius: 25px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 3.2rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: background-image 0.5s ease, box-shadow 0.5s ease, transform 0.5s ease;
+}
+
+.button-36:hover {
+  box-shadow: rgba(235, 228, 26, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+  background-image: linear-gradient(92.88deg, #febe47 9.16%, #efc460 43.89%, rgb(252, 212, 81) 64.72%);
+  box-shadow: rgba(235, 228, 26, 0.5) 0 1px 30px;
+  transform: scale(1.05);
+  transition-duration: 0.3s;
+}
+
+.footer-page {
+  height: 150px;
+  width: 100%;
+  background-color: #282c34;
+  display: flex;
+  color: white;
+  padding-left: 100px;
+}
+
+.payment-title{
+  margin-top: 15px;
+  font-size: 30px;
+  font-family: 'Catamaran', 'Heebo', 'Playfair Display', 'Roboto Mono', sans-serif;
+}
+
+.payment-div {
+  margin-left: -240px;
+  margin-top: 60px;
+}
+
+.payment {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.follow-top {
+  margin-left: auto;
+  margin-right: 350px;
+}
+
+.follow-title {
+  margin-top: 15px;
+  font-size: 30px;
+  font-family: 'Catamaran', 'Heebo', 'Playfair Display', 'Roboto Mono', sans-serif;
+}
+
+.follow {
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+  height: 50px;
+}
+
+.footer-line {
+  width: 100%;
+  height: 42px;
+  background-color: rgba(179, 172, 172, 0.812);
+}
+
+.footer-box {
+  height: auto;
+  width: 100%;
+  background-color: #282c34;
+  display: flex;
+  color: white;
+  padding-left: 100px;
+  margin-top: -40px;
+  padding-bottom: 20px;
+}
+
+.contact-div {
+  margin-left: -150px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.contact-div ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.contact-div li {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.contact-div .img {
+  margin-left: -60px;
+  margin-right: 10px;
+  height: 40px;
+}
+.contact-div .imag {
+  margin-right: 10px;
+  height: 40px;
+}
+.contact-title {
+  margin-top: 25px;
+  font-size: 30px;
+  color: #ecb130;
+  font-family: 'Catamaran', 'Heebo', 'Playfair Display', 'Roboto Mono', sans-serif;
+}
+.contact {
+  margin-top: 12px;
+}
+.about-box {
+  height: auto;
+  width: 100%;
+  background-color: #282c34;
+  display: flex;
+  color: white;
+  padding-left: 250px;
+  margin-top: -40px;
+  padding-bottom: 20px;
+}
+.about-title{
+  margin-top: 25px;
+  color: #ecb130;
+  font-size: 30px;
+  font-family: 'Catamaran', 'Heebo', 'Playfair Display', 'Roboto Mono', sans-serif;
+}
+.about-div {
+  margin-left: -100px;
+  margin-top: 60px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.parent-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}
+.feed-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  margin-right: 120px;
+}
+.feed-box input {
+  width: 180px;
+  height: 35px;
+  border: 2px solid #131313;
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: 16px;
+  margin-right: -15px;
+  margin-top: -100px;
+}
+.feedback-box {
+  height: auto;
+  width: 100%;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-left: 300px;
+  margin-top: -40px;
+
+}
+.feedback-title {
+  margin-top: 15px;
+  margin-right: 10px;
+  color: #ecb130;
+  font-size: 30px;
+  font-family: 'Catamaran', 'Heebo', 'Playfair Display', 'Roboto Mono', sans-serif;
+}
